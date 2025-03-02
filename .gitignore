@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# IDE and editor configurations
+.mr.developer.cfg
+.project
+.pydevproject
+.ropeproject
+
+# Logs and temporary files
+*.log
+*.pot
+
+# Documentation build files
+docs/_build/
+
+# Jupyter notebook ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+.venv/
+.env/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Explicitly track src
+!src/
+!src/data/
+!src/models/
+!src/utils/
+!src/visualisations/
+
+# Explicitly track notebooks
+!notebooks/
+!notebooks/data_analysis.ipynb
+!notebooks/model_training.ipynb
+
+# Explicitly track test
+!tests
